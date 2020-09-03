@@ -38,7 +38,7 @@ class Interval():
             UU = max(Right)
 
             Left = min(LL,LU)
-            Right = max(LU,UU)
+            Right = max(UL,UU)
 
         elif hasattr(Left, '__iter__'):
 
